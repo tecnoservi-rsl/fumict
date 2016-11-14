@@ -1,0 +1,48 @@
+#alumnos_re {
+	background-color: rgba(45, 150, 179, 0.88);
+	border: 1px solid rgb(128, 133, 189);
+	border-radius: 5px;
+	height: 58px;
+	font-size: 30px;
+	font-style: oblique;
+	text-align: center;
+	padding-top: 8px;
+	color: rgb(255, 255, 255);
+
+}
+#profesor_re {
+	background-color: rgba(234, 32, 32, 0.61);
+	border: 1px solid rgb(128, 133, 189);
+	border-radius: 5px;
+	height: 58px;
+	font-size: 30px;
+	font-style: oblique;
+	text-align: center;
+	padding-top: 8px;
+	color: rgb(255, 255, 255);
+}
+#alumnos_re:hover {
+	background-color: rgba(116, 185, 204, 0.9);
+	border: 1px solid rgb(67, 76, 179);
+	border-radius: 5px;
+	height: 58px;
+	font-size: 30px;
+	font-style: oblique;
+	text-align: center;
+	padding-top: 8px;
+	color: rgb(255, 255, 255);
+}
+#profesor_re:hover {
+	background-color: rgba(221, 69, 69, 0.6);
+	border: 1px solid rgb(245, 0, 0);
+	border-radius: 5px;
+	height: 58px;
+	font-size: 30px;
+	font-style: oblique;
+	text-align: center;
+	padding-top: 8px;
+	color: rgb(255, 255, 255);
+}
+#alumprofe {
+	margin-bottom: 10px;
+}

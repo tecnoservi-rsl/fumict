@@ -1,0 +1,27 @@
+.color {
+	width: 20%;
+	border: 1px solid;
+	border-radius: 5px;
+	float: left;
+	margin-left: 5%;
+	text-align: center;
+}
+#color_aplicacion {
+	border: 1px solid;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+.color_muestra {
+	min-height: 30px;
+	border: 1px solid;
+	border-radius: 7px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.control {
+	text-align: center;
+	margin-bottom: 2px;
+	border: 1px solid;
+	border-radius: 4px;
+}

@@ -1,0 +1,110 @@
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10  col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+<div class="header-titulos">administrar menuss</div>
+
+	<div class="col-xs-12 col-md-6">
+
+		<table class="table ">
+		<tr class="active">
+		<td>id</td>
+		<td>titulo</td>
+		<td>enlace</td>
+		</tr>
+		<?php for ($i=0; $i < count($this->menus); $i++): ?>
+		<tr>
+		<td><?php echo $this->menus[$i]['id_menu'] ?></td>
+		<td><?php echo $this->menus[$i]['titulo'] ?></td>
+		<td><?php echo $this->menus[$i]['enlace'] ?></td>	
+		</tr>
+		<?php endfor; ?>
+		</table>
+
+</div>
+	<div class="col-xs-12 col-md-6">
+		
+		<table class="table ">
+		<tr class="active">
+		<?php for ($i=0; $i < count($this->rol); $i++): ?>
+		
+		<td><?php echo $this->rol[$i]['role'] ?></td>
+		
+		<?php endfor; ?>
+		</tr>
+		<?php for ($i=0; $i < count($this->menus) ; $i++): ?>
+		<tr>
+			<?php for ($x=0; $x < count($this->rol) ; $x++): ?>
+			<td><?php echo $this->matris[$i][$x]['permiso'] ?></td>
+			<?php endfor; ?>
+
+		</tr>
+		<?php endfor; ?>
+		</table>
+
+
+	</div>
+	<div class="header-titulos col-xs-12">colores del layout</div>
+	<div id="color_aplicacion" class="col-xs-12 col-md-2 " style="background-color: <?php echo "#".$this->colores[7]; ?>;">
+		<center>
+		<div id="muestra_nav" class="col-xs-12 color_muestra" style="background-color: <?php echo "#".$this->colores[0]; ?>;" >nav</div>
+		<div id="muestra_header" class="col-xs-12 color_muestra" style="background-color: <?php echo "#".$this->colores[1]; ?>; color: <?php echo "#".$this->colores[2]; ?> ; border-color: <?php echo "#".$this->colores[2]; ?>;" >header</div>
+		<div id="muestra_titulos" class="col-xs-12 color_muestra" style="background-color: <?php echo "#".$this->colores[3]; ?>; color: <?php echo "#".$this->colores[4]; ?> ; border-color: <?php echo "#".$this->colores[4]; ?>;  ">titulos</div>
+		<div id="muestra_pie" class="col-xs-12 color_muestra" style="background-color: <?php echo "#".$this->colores[5]; ?>; color: <?php echo "#".$this->colores[6]; ?> ; border-color: <?php echo "#".$this->colores[6]; ?>;"  >pie</div>
+
+		
+		<button id="cambiar_color" type="button" class="btn btn-success">cambiar color</button>
+</center>
+
+	</div>
+<div class="col-xs-12 col-md-4">
+
+	<div class="row">
+		<div class="col-xs-6">nav</div>
+		<div class="col-xs-6"><input id="nav" value="<?php echo $this->colores[0]; ?>" class="jscolor form-control"></input></div>		
+	</div>
+	<div class="row">
+		<div class="col-xs-6">header</div>
+		<div class="col-xs-6"><input id="header" value="<?php echo $this->colores[1]; ?>" class="jscolor form-control"></input></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-7">header-letra-border</div>
+		<div class="col-xs-5"><input id="header-letra-border" value="<?php echo $this->colores[2]; ?>" class="jscolor form-control"></input></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">titulo</div>
+		<div class="col-xs-6"><input id="titulos" value="<?php echo $this->colores[3]; ?>" class="jscolor form-control"></input></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-7">titulo-letra-border</div>
+		<div class="col-xs-5"><input id="titulo-letra-border" value="<?php echo $this->colores[4]; ?>" class="jscolor form-control"></input></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">pie</div>
+		<div class="col-xs-6"><input id="piee" value="<?php echo $this->colores[5]; ?>" class="jscolor form-control"></input></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-7">pie-letra-border</div>
+		<div class="col-xs-5"><input id="pie-letra-border" value="<?php echo $this->colores[6]; ?>" class="jscolor form-control"></input></div>
+	</div>
+</div>
+<div class="col-xs-12 col-md-4">
+
+	<div class="row">
+		<div class="col-xs-6">fondo</div>
+		<div class="col-xs-6"><input id="fondo" value="<?php echo $this->colores[7]; ?>" class="jscolor form-control"></input></div>		
+	</div>
+	<div class="row">
+		<div class="col-xs-6">ancho del header</div>
+		<div class="col-xs-6"><input type="num" id="ancho_header" value="<?php echo $this->colores[8]; ?>" class=" form-control"></input></div>
+	</div>
+	
+</div>
+
+
+	<div class="col-xs-12">
+		<?php for ($i=0; $i < count($this->views) ; $i++): ?>
+
+			<?php echo $this->views[$i].'<br>'; ?> 
+
+		<?php endfor; ?>
+	</div>
+
+</div>

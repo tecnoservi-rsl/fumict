@@ -1,0 +1,163 @@
+#collace_opt {
+	border: 1px solid rgb(190, 200, 255);
+	width: 46%;
+	height: 247px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: rgba(0, 0, 255, 0.06);
+	font-size: 33px;
+	float: left;
+	margin-left: 21px;
+	margin-top: 10px;
+	position: relative;
+}
+#capas_tras_up {
+	position: absolute;
+	opacity: 1;
+	transition: cubic-bezier(.66,-0.33,1,1) all 0.5s;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	
+	color: rgb(223, 227, 255);
+	/* background-image: url("../../../../public/img/carro.jpg"); */
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+#capas_tras_donw {
+	position: absolute;
+	opacity: 0.0;
+	transition: linear all 0.5s;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	padding-top: 65px;
+}
+#capas_tras_donw:hover {
+	position: absolute;
+	opacity: 0.7;
+	background-color: #d2d2ff;
+}
+
+#capas_tras_up:hover {
+	position: absolute;
+	opacity: 0.2;
+	
+}
+
+#opt_ {
+	float: left;
+	width: 36%;
+	text-align: center;
+	margin-top: 21px;
+	border-bottom: 4px solid;
+	margin-left: 10%;
+	margin-right: 0%;
+	color: RGBA(32, 65, 132, 0.90);
+	cursor: pointer;
+	font-family: unset;
+	font-size: 26px;
+}
+#opt_:hover {
+	color: RGB(131, 33, 33);
+	/* font-size: 33px; */
+}
+@media (max-width: 800px) {
+
+#collace_opt {
+	width: 42%;
+	font-size: 17px;
+		height: 190px;
+}
+
+
+}
+/*
+@media (max-width: 480px) {
+
+#collace_opt {
+	width: 42%;
+	font-size: 12px;
+	height: 80px
+}*/
+
+.col-xs-10 > article:nth-child(2) > div:nth-child(1){
+
+background-image: url("../../../../public/img/proveedor.JPG");
+background-position: 0em -3em;
+
+
+}
+
+.col-xs-10 > article:nth-child(3) > div:nth-child(1){
+
+	background-image: url("../../../../public/img/banco.JPG");
+	/*background-position: 0em -3em;*/
+
+}
+
+.col-xs-10 > article:nth-child(4) > div:nth-child(1){
+
+	background-image: url("../../../../public/img/orden.JPG");
+}
+.col-xs-10 > article:nth-child(5) > div:nth-child(1){
+
+	background-image: url("../../../../public/img/banco.jpg");
+}
+#fondo_gris {
+	background-color: rgba(89, 89, 89, 0.73);
+}
+
+#texto_principal {
+	/* border: medium solid; */
+	float: left;
+	margin-top: 30px;
+	margin-left: 2%;
+	margin-right: 4%;
+	text-align: justify;
+	font-size: 15px;
+	/* font-style: italic; */
+	font-family: palatino !important;
+}
+#menu_gestion {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+#x_gestion {
+	float: left;
+	width: 43%;
+	background-color: rgba(227, 227, 227, 0.25);
+	margin-left: 4%;
+	border: 1px solid;
+	border-color: #aeaeae;
+	border-radius: 4px;
+}
+#x_gestion:hover {
+	float: left;
+	width: 43%;
+	background-color: rgba(166, 178, 207, 0.3);
+	margin-left: 4%;
+	border: 1px solid;
+	border-color: #aeaeae;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#x_gestion div:nth-child(1) {
+	border-bottom: 1px solid;
+	width: 80%;
+	border-color: #cfcfcf;
+	margin-bottom: 10px;
+}
+#x_gestion div:nth-child(2) {
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 11px;
+}
+#x_gestion div:nth-child(3) {
+	border-top: 1px solid;
+	width: 80%;
+	border-color: #cfcfcf;
+	margin-top: 10px;
+}
