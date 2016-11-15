@@ -1,0 +1,31 @@
+
+#datosrepresentante {
+	padding-bottom: 20px;
+	padding-top: 5px;
+	font-size: 14px;
+}
+
+#tituloo {
+	font-size: 22px;
+	text-align: center;
+	background-color: #a1baff;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+#titulo {
+	background: #a1baff;
+	font-size: 15px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.titulo-form {
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.titulo-form2 {
+	font-size: 14px;
+	margin-top: 3px;
+}

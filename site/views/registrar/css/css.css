@@ -1,0 +1,17 @@
+#tituloo {
+	font-size: 22px;
+	text-align: center;
+	background-color: #a1baff;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.titulo-form {
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.titulo-form2 {
+	font-size: 14px;
+	margin-top: 3px;
+}
