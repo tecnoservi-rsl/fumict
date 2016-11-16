@@ -29,3 +29,15 @@
 	font-size: 14px;
 	margin-top: 3px;
 }
+.repre {
+	width: 66%;
+	float: left;
+	min-height: 93px;
+}
+.cheke {
+	width: 34%;
+	float: left;
+	min-height: 93px;
+	/* padding-left: 10%; */
+	/* padding-top: 5%; */
+}

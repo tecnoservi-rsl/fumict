@@ -23,7 +23,7 @@ $sql1="insert into representados values ('','".$datos['nombres']."','".$datos['a
 
 public function buscar_representante($datos){
 
-$sql="select * from representantes where cedula=$datos";
+  $sql="select * from representantes where cedula='$datos'";
 
  $id = $this->_db->query($sql);
 
@@ -34,7 +34,7 @@ return $id->fetch();
 
 public function buscar_representados($datos){
 
-echo $sql="select * from representados where id_representante=$datos";
+ $sql="select * from representados where id_representante='$datos'";
 
  $id = $this->_db->query($sql);
 
