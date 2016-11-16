@@ -386,7 +386,7 @@ function Header()
         $this->setx(($this->w)-60);
         $this->Cell(40,4,'Pagina :'.$this->PageNo(),0,0,'L');
          $this->setx(10);
-        $this->Cell(40,4,'KEIKO C.A.',0,0,'L');
+        $this->Cell(40,4,'aki va la varible que quieres del login esto esta en fumit/libs/fpdf.php. metodo header',0,0,'L');
    
         $this->ln();  
 

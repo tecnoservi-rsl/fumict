@@ -42,6 +42,16 @@ return $id->fetchall();
 
      
 }
+public function buscar_representado($datos){
+
+ $sql="select * from representados where id_representado='$datos'";
+
+ $id = $this->_db->query($sql);
+
+return $id->fetch();
+
+     
+}
 
 
 
